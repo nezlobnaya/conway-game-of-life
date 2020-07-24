@@ -1,11 +1,12 @@
 import React from 'react';
-import Grid from './components/Grid'
+import Main from './components/Main';
+
 
 function App() {
   return (
     <div>
     <h1>Game of Life</h1>
-    <Grid />
+    <Main />
     </div>
   );
 }
