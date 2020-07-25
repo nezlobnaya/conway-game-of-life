@@ -1,12 +1,18 @@
 import React from 'react';
-import Main from './components/Main';
+import Title from './components/Title'
+import Main from './components/Main'
+import Footer from './components/Footer'
+import { Divider } from 'semantic-ui-react';
+
 
 
 function App() {
   return (
     <div>
-    <h1>Game of Life</h1>
-    <Main />
+      <Title />
+      <Divider />
+      <Main />
+      <Footer />
     </div>
   );
 }
