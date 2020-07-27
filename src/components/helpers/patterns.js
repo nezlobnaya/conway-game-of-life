@@ -15,6 +15,10 @@ export const loadPreset = preset => {
             return gliderGun(newWorld);
         case 'line':
             return line(newWorld)
+        case 'combination':
+            return combination(newWorld)
+        case 'brain':
+            return brain(newWorld)
         default:
             return newWorld;
     }
@@ -158,5 +162,91 @@ const beacon = world => {
     world[22][23] = ALIVE;
     world[23][23] = ALIVE;
     world[23][22] = ALIVE;
+    return world;
+}
+
+const combination = world => {
+    world[0][12] = ALIVE;
+    world[1][12] = ALIVE;
+    world[2][12] = ALIVE;
+    world[1][6] = ALIVE;
+    world[2][7] = ALIVE;
+    world[0][8] = ALIVE;
+    world[1][8] = ALIVE;
+    world[2][8] = ALIVE;
+    return world;
+}
+
+const brain = world => {
+    world[15][15] = ALIVE;
+    world[15][16] = ALIVE;
+    world[16][14] = ALIVE;
+    world[16][17] = ALIVE;
+    world[16][23] = ALIVE;
+    world[16][24] = ALIVE;
+    world[17][14] = ALIVE;
+    world[17][15] = ALIVE;
+    world[17][16] = ALIVE;
+    world[17][20] = ALIVE;
+    world[17][21] = ALIVE;
+    world[17][22] = ALIVE;
+    world[18][14] = ALIVE;
+    world[18][17] = ALIVE;
+    world[18][19] = ALIVE;
+    world[18][20] = ALIVE;
+    world[18][21] = ALIVE;
+    world[18][22] = ALIVE;
+    world[19][15] = ALIVE;
+    world[19][16] = ALIVE;
+    world[19][17] = ALIVE;
+    world[19][21] = ALIVE;
+    world[20][15] = ALIVE;
+    world[20][18] = ALIVE;
+    world[20][19] = ALIVE;
+    world[20][20] = ALIVE;
+    world[21][17] = ALIVE;
+    world[21][22] = ALIVE;
+    world[21][23] = ALIVE;
+    world[22][17] = ALIVE;
+    world[22][18] = ALIVE;
+    world[22][19] = ALIVE;
+    world[22][20] = ALIVE;
+    world[22][21] = ALIVE;
+    world[22][23] = ALIVE;
+    world[24][17] = ALIVE;
+    world[24][18] = ALIVE;
+    world[24][19] = ALIVE;
+    world[24][20] = ALIVE;
+    world[24][21] = ALIVE;
+    world[24][23] = ALIVE;
+    world[25][17] = ALIVE;
+    world[25][22] = ALIVE;
+    world[25][23] = ALIVE;
+    world[26][15] = ALIVE;
+    world[26][18] = ALIVE;
+    world[26][19] = ALIVE;
+    world[26][20] = ALIVE;
+    world[27][15] = ALIVE;
+    world[27][16] = ALIVE;
+    world[27][17] = ALIVE;
+    world[27][21] = ALIVE;
+    world[28][14] = ALIVE;
+    world[28][17] = ALIVE;
+    world[28][19] = ALIVE;
+    world[28][20] = ALIVE;
+    world[28][21] = ALIVE;
+    world[28][22] = ALIVE;
+    world[29][14] = ALIVE;
+    world[29][15] = ALIVE;
+    world[29][16] = ALIVE;
+    world[29][20] = ALIVE;
+    world[29][21] = ALIVE;
+    world[29][22] = ALIVE;
+    world[30][14] = ALIVE;
+    world[30][17] = ALIVE;
+    world[30][23] = ALIVE;
+    world[30][24] = ALIVE;
+    world[31][15] = ALIVE;
+    world[31][16] = ALIVE;
     return world;
 }

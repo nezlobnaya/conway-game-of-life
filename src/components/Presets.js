@@ -7,6 +7,8 @@ const options = [
     { key: 'glider', value: 'glider', text: 'Glider' },
     { key: 'pulsar', value: 'pulsar', text: 'Pulsar' },
     { key: 'diehard', value: 'diehard', text: 'Diehard' },
+    { key: 'brain', value: 'brain', text: 'Brain' },
+    { key: 'combination', value: 'combination', text: 'Combination' },
     { key: 'gliderGun', value: 'gliderGun', text: 'Gosper Glider Gun' }
 ];
 
