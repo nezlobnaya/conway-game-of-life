@@ -5,7 +5,7 @@ const Rules = () => (
     <div>
       <ul>
         <h3 style={{ color: "#d4ae6f" }}>Intro</h3>
-        <li style={{ color: "#d4ae6f", fontSize: "17px" }} >
+        <li style={{ color: "#d4ae6f", fontSize: "17px", lineHeight: "130%"}} >
         The game takes place on a two-dimensional finite or infinite grid 
         whose cells can take two distinct states: “alive” or “dead”.
         </li>
