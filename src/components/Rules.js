@@ -1,7 +1,7 @@
 import React from "react";
 
 const Rules = () => (
-  <div style={{ display: "flex", width: "20em", textAlign: "left", marginTop: "3rem",  marginLeft: "10em" ,justifyContent: "right",}}>
+  <div style={{ display: "flex", width: "20em", textAlign: "left", marginTop: "1em",  marginLeft: "10em" ,justifyContent: "right",}}>
     <div>
       <ul>
         <h3 style={{ color: "#d4ae6f" }}>Intro</h3>
