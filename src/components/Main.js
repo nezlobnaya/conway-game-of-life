@@ -48,7 +48,7 @@ class Game extends React.Component {
           <Rules />
           <Grid world={world} onChange={this.onChange} />
         </div>
-        <p style={{textAlign: "center"}}>Generation: {this.state.generation}</p>
+        {/* <p style={{textAlign: "center"}}>Generation: {this.state.generation}</p> */}
         <Controls
           clear={this.onClear}
           next={this.onNext}

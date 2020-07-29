@@ -17,7 +17,8 @@ const Presets = ({ playing, load }) => {
     let [preset, setPreset] = useState('beacon')
 
     const onLoad = () => {
-        setPreset(load(preset))
+        setPreset(preset)
+        return preset ? load(preset) : null;
     }
 
     return (
@@ -44,3 +45,4 @@ const Presets = ({ playing, load }) => {
 
 
 export default Presets;
+

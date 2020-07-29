@@ -1,13 +1,12 @@
 import React from 'react';
 import { changeArrayValue } from './Game';
 
-const Grid = (props) => {
+const Grid = ({ world, onChange }) => {
 
   const toggleCell = (cell, x, y) => {
-    const { world } = props;
     const row = changeArrayValue(world[y], x, cell ? 0 : 1);
     const newWorld = changeArrayValue(world, y, row);
-    props.onChange(newWorld);
+    onChange(newWorld);
   }
 
   const renderCell = (cell, x, y) => {
@@ -29,7 +28,7 @@ const Grid = (props) => {
   
     return (
       <div className='game-grid'>
-        {props.world.map((row, y) => renderRow(row, y))}
+        {world.map((row, y) => renderRow(row, y))}
       </div>
     );
   
