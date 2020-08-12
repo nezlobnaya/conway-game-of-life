@@ -1,13 +1,61 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body {
+  background-color: #222233 !important;
+  line-height: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p {
+  align-content: center;
+  color: #fff;
+  padding-top: 15px !important;
+  text-align: justify;
+}
+
+p > span {
+  opacity: 0.4;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+  height: auto;
+  margin: auto
+}
+
+.title {
+  padding-top: 20px !important;
+}
+
+.controls {
+  text-align: justify;
+  margin: 20px auto;
+  margin-left: 47rem;
+}
+
+.presets {
+  text-align: justify;
+  margin: 20px auto;
+  margin-left: 54rem;
+  padding-bottom: 1rem;
+}
+
+.game-grid {
+  text-align: justify ;
+  margin-left: 8rem;
+}
+
+.row {
+  height: 15px;
+}
+
+.cell {
+  background-color: #d4ae6f;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  border: solid 1px rgba(0, 0, 0, 0.6);
+}
+
+.cell:hover {
+  background-color: #bcbcc1;
 }
