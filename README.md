@@ -1,4 +1,4 @@
-![GitHub branch checks state](https://img.shields.io/github/checks-status/nezlobnaya/conway-game-of-life/master)
+![GitHub branch checks state](https://img.shields.io/github/checks-status/nezlobnaya/conway-game-of-life/master)[![Build Status](https://app.travis-ci.com/nezlobnaya/conway-game-of-life.svg?branch=master)](https://app.travis-ci.com/nezlobnaya/conway-game-of-life)
 
 Implementation of Conway's game is done in JavaScript using React.js
 
