@@ -1,3 +1,5 @@
+![GitHub branch checks state](https://img.shields.io/github/checks-status/nezlobnaya/conway-game-of-life/master)
+
 Implementation of Conway's game is done in JavaScript using React.js
 
 Conway’s game of life is a no player game which means its evolution throughout the game is determined by its initial input and no further interaction is required. It was devised by Cambridge mathematician, John Horton Conway. The game became very popular when it was mentioned in an article published by Scientific American in 1970.
